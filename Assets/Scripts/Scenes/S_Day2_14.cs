@@ -105,7 +105,7 @@ public class S_Day2_14 : MonoBehaviour
 		{
 			GameObject.Find ("Character").GetComponent<CC_Character> ().AnxietyDown ();
 			GameObject.Find ("Character").GetComponent<CC_Character> ().FocusUp ();
-			Application.LoadLevel ("MP_Day2_6");
+			Application.LoadLevel ("MP_Day4_1");
 		}
 		
 		cntr++;
@@ -118,7 +118,7 @@ public class S_Day2_14 : MonoBehaviour
 		{
 			GameObject.Find ("Character").GetComponent<CC_Character> ().AnxietyUp ();
 			GameObject.Find ("Character").GetComponent<CC_Character> ().FocusDown ();
-			Application.LoadLevel ("MP_Day2_7");
+			Application.LoadLevel ("MP_Day4_2");
 		}
 	}
 	/*

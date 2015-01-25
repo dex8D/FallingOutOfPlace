@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{429EB8F8-5F2B-0C16-E455-50494E39552C}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\CharacterCreation\CC_Arrow.cs" />
+     <Compile Include="Assets\Scripts\CharacterCreation\CC_Buttons.cs" />
+     <Compile Include="Assets\Scripts\CharacterCreation\CC_Character.cs" />
+     <Compile Include="Assets\Scripts\CharacterCreation\CC_Eyes.cs" />
+     <Compile Include="Assets\Scripts\CharacterCreation\CC_Hair.cs" />
+     <Compile Include="Assets\Scripts\Game\G_AnswerButton.cs" />
+     <Compile Include="Assets\Scripts\Game\G_GameController.cs" />
+     <Compile Include="Assets\Scripts\GenderSelect\GS_Buttons.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\MM_Buttons.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\MM_Exit.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\MM_StartGame.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_11.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_12.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_13.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_14.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_15.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_16.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_17.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_18.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_19.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_20.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_21.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_22.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_23.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_24.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_25.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_26.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_27.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_28.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_29.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_30.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_31.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_32.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_33.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_34.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_35.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_36.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_37.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_38.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_39.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day1_40.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_11.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_12.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_13.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_14.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_15.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_16.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_17.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_18.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_19.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_20.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_21.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_22.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_23.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_24.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_25.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_26.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_27.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_28.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_29.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_30.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_31.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_32.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_33.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_34.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_35.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_36.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_37.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_38.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_39.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day2_40.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_11.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_12.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_13.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_14.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_15.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_16.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_17.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_18.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_19.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_20.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_21.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_22.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_23.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_24.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_25.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_26.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_27.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_28.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_29.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_30.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_31.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_32.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_33.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_34.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_35.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_36.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_37.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_38.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_39.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day3_40.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_11.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_12.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_13.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_14.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_15.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_16.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_17.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_18.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_19.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_20.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_21.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_22.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_23.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_24.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_25.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_26.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_27.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_28.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_29.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_30.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_31.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_32.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_33.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_34.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_35.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_36.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_37.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_38.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_39.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Day4_40.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Level1Test.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Level2Test.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_SceneTransition.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions xmlns="http://schemas.microsoft.com/developer/msbuild/2003"><MonoDevelop><Properties><Policies><DotNetNamingPolicy DirectoryNamespaceAssociation="None" ResourceNamePolicy="FileName" /></Policies></Properties></MonoDevelop></ProjectExtensions>
+
+</Project>

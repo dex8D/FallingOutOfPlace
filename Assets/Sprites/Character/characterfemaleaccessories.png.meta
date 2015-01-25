@@ -1,0 +1,245 @@
+fileFormatVersion: 2
+guid: bf67ebfadd3eb6142b053145bd7df086
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Eyebrow3
+    21300002: Eyes1
+    21300004: Eyebrow3
+    21300006: Eyes2
+    21300008: Eyebrow3
+    21300010: Eyes3
+    21300012: Shoes1
+    21300014: Shoes2
+    21300016: Pants1
+    21300018: Pants2
+    21300020: Hair1
+    21300022: Hair2
+    21300024: Hair3
+    21300026: Shirt1
+    21300028: Shirt2
+    21300030: Hair4
+    21300032: Hair5
+    21300034: Hair6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Eyebrow3
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 2259
+        width: 150
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eyes1
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 2263
+        width: 145
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eyebrow3
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 2204
+        width: 150
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eyes2
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 2172
+        width: 145
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eyebrow3
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 2145
+        width: 150
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eyes3
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 2081
+        width: 145
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shoes1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1740
+        width: 700
+        height: 223
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shoes2
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1740
+        width: 700
+        height: 223
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pants1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 898
+        width: 341
+        height: 673
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pants2
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 887
+        width: 341
+        height: 673
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair1
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 915
+        width: 300
+        height: 650
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair2
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 922
+        width: 300
+        height: 650
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair3
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 917
+        width: 300
+        height: 650
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shirt1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 120
+        width: 561
+        height: 666
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shirt2
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 95
+        width: 561
+        height: 666
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair4
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 110
+        width: 309
+        height: 650
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair5
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 110
+        width: 309
+        height: 650
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair6
+      rect:
+        serializedVersion: 2
+        x: 2355
+        y: 110
+        width: 311
+        height: 650
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

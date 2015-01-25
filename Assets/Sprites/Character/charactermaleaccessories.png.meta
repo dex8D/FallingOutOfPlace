@@ -1,0 +1,284 @@
+fileFormatVersion: 2
+guid: 949ab5b0b9d96384c86f4b96794879a7
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: charactermaleaccessories_0
+    21300002: charactermaleaccessories_1
+    21300004: charactermaleaccessories_2
+    21300006: charactermaleaccessories_3
+    21300008: charactermaleaccessories_4
+    21300010: charactermaleaccessories_5
+    21300012: charactermaleaccessories_6
+    21300014: charactermaleaccessories_7
+    21300016: charactermaleaccessories_8
+    21300018: charactermaleaccessories_9
+    21300020: charactermaleaccessories_10
+    21300022: charactermaleaccessories_11
+    21300024: charactermaleaccessories_12
+    21300026: charactermaleaccessories_13
+    21300028: charactermaleaccessories_14
+    21300030: charactermaleaccessories_15
+    21300032: charactermaleaccessories_16
+    21300034: charactermaleaccessories_17
+    21300036: charactermaleaccessories_18
+    21300038: charactermaleaccessories_19
+    21300040: charactermaleaccessories_20
+    21300042: charactermaleaccessories_21
+    21300044: charactermaleaccessories_22
+    21300046: charactermaleaccessories_23
+    21300048: charactermaleaccessories_24
+    21300050: charactermaleaccessories_25
+    21300052: charactermaleaccessories_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: charactermaleaccessories_0
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 2053
+        width: 385
+        height: 431
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermaleaccessories_1
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 2051
+        width: 385
+        height: 430
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermaleaccessories_2
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 2411
+        width: 140
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermaleaccessories_4
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 2405
+        width: 188
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermaleaccessories_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 2074
+        width: 357
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermaleaccessories_7
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 2069
+        width: 358
+        height: 312
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermaleaccessories_8
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 2343
+        width: 140
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermaleaccessories_10
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 2342
+        width: 188
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermaleaccessories_12
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 2266
+        width: 140
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermaleaccessories_14
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 2266
+        width: 188
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermaleaccessories_16
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 837
+        width: 477
+        height: 1041
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermaleaccessories_17
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 1652
+        width: 286
+        height: 296
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermaleaccessories_18
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 1647
+        width: 286
+        height: 296
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermaleaccessories_19
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 1261
+        width: 286
+        height: 296
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermaleaccessories_20
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1261
+        width: 236
+        height: 244
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermaleaccessories_21
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 988
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermaleaccessories_22
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 854
+        width: 234
+        height: 244
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermaleaccessories_23
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 852
+        width: 233
+        height: 244
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermaleaccessories_24
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 43
+        width: 729
+        height: 785
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermaleaccessories_25
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 106
+        width: 606
+        height: 659
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermaleaccessories_23
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 903
+        width: 450
+        height: 1041
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

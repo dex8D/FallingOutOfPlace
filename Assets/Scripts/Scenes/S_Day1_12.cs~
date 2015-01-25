@@ -5,6 +5,13 @@ using System.Collections;
 public class S_Day1_12 : MonoBehaviour
 {
 	#region "Class Variables"
+		public GameObject goBackground = null;
+		public Sprite sprite1 = null;
+		public Sprite sprite2 = null;
+		public Sprite sprite3 = null;
+		public Sprite sprite4 = null;
+		public Sprite sprite5 = null;
+	
 		public Text txtText = null;
 		public Text txtAnswer1 = null;
 		public Text txtAnswer2 = null;
@@ -38,6 +45,8 @@ public class S_Day1_12 : MonoBehaviour
 				} else if (cntr == 3) {
 						ChangeDescriptionText ("Class then commences and the MP and Lee part\nLunch, introduce love interest\nMP sits down and starts to eat Lee sits down next to him ");
 				} else if (cntr == 4) {
+
+						goBackground.GetComponent<SpriteRenderer> ().sprite = sprite2;
 						ChangeDescriptionText ("Lee: Okay, they have to have better food than this overcooked junk\nYou: Meh, it keeps me awake. ");
 				} else if (cntr == 5) {
 						ChangeDescriptionText ("Lee: *whispers* Oh shit dude, Sam is right behind you!\nYou:*panic whisper* really?! ");
@@ -56,19 +65,23 @@ public class S_Day1_12 : MonoBehaviour
 				} else if (cntr == 12) {
 						ChangeDescriptionText ("Sam Walks off\nLee: Missed again.\nYou: I’M SORRY I DON’T THINK WITH MY DICK 24/7. ");
 				} else if (cntr == 13) {
+						goBackground.GetComponent<SpriteRenderer> ().sprite = sprite3;
 						ChangeDescriptionText ("Lee: Calm down dude, I’m just giving you shit. I will talk to you after school.\nAfter School Lee\nMP: Why does every day feel like it’s killing me slowly. ");
 				} else if (cntr == 14) {
 						ChangeDescriptionText ("Lee: You just need to relax, party some, maybe work out. That’s where I’m headed, want to go with?\nMP: Dude, you know I don’t like working out with you, you are such a hard ass. ");
 				} else if (cntr == 15) {
 						ChangeDescriptionText ("Lee: Fine, have it your way, just remember to chill out. You stress too much.\nMP: I know. ");
 				} else if (cntr == 16) {
+						goBackground.GetComponent<SpriteRenderer> ().sprite = sprite4;
 						ChangeDescriptionText ("MP goes home\nMP drops off his stuff, opens up his computer, turns on music, and starts playing on his Playstation 3\nWhich game should I pick? ");
 						ChangeAnswer1Text ("Dark Souls");
 						ChangeAnswer2Text ("Rock Band ");
 				} else if (cntr == 17) {
 						Debug.Log ("Load Level1Test from Level1Test");
-						GameObject.Find ("Character").GetComponent<CC_Character> ().AnxietyUp ();
-						GameObject.Find ("Character").GetComponent<CC_Character> ().FocusDown ();
+						if (GameObject.Find ("Character") != null)
+								GameObject.Find ("Character").GetComponent<CC_Character> ().AnxietyUp ();
+						if (GameObject.Find ("Character") != null)
+								GameObject.Find ("Character").GetComponent<CC_Character> ().FocusDown ();
 						Application.LoadLevel ("MP_Day2_1");
 				}
 				cntr++;
@@ -78,8 +91,10 @@ public class S_Day1_12 : MonoBehaviour
 		{
 				if (cntr == 17) {
 						Debug.Log ("Load Level2Test from Level1Test");
-						GameObject.Find ("Character").GetComponent<CC_Character> ().AnxietyDown ();
-						GameObject.Find ("Character").GetComponent<CC_Character> ().FocusUp ();
+						if (GameObject.Find ("Character") != null)
+								GameObject.Find ("Character").GetComponent<CC_Character> ().AnxietyDown ();
+						if (GameObject.Find ("Character") != null)
+								GameObject.Find ("Character").GetComponent<CC_Character> ().FocusUp ();
 						Application.LoadLevel ("MP_Day2_1");
 				}
 		}

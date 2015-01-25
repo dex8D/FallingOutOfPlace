@@ -5,6 +5,12 @@ using System.Collections;
 public class S_Day1_11 : MonoBehaviour
 {
 	#region "Class Variables"
+		public Sprite sprite1 = null;
+		public Sprite sprite2 = null;
+		public Sprite sprite3 = null;
+		public Sprite sprite4 = null;
+		public Sprite sprite5 = null;
+	
 		public Text txtText = null;
 		public Text txtAnswer1 = null;
 		public Text txtAnswer2 = null;
@@ -12,7 +18,7 @@ public class S_Day1_11 : MonoBehaviour
 		public Button btnAnswer1 = null;
 		public Button btnAnswer2 = null;
 
-		private int cntr = 0;
+//		private int cntr = 0;
 	#endregion // Class Variables
 	
 	#region "Events"

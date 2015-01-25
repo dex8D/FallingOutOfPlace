@@ -5,6 +5,12 @@ using System.Collections;
 public class S_Day4_11 : MonoBehaviour
 {
 	#region "Class Variables"
+		public Sprite sprite1 = null;
+		public Sprite sprite2 = null;
+		public Sprite sprite3 = null;
+		public Sprite sprite4 = null;
+		public Sprite sprite5 = null;
+	
 		public Text txtText = null;
 		public Text txtAnswer1 = null;
 		public Text txtAnswer2 = null;

@@ -5,6 +5,13 @@ using System.Collections;
 public class S_Day2_13 : MonoBehaviour
 {
 	#region "Class Variables"
+		public GameObject goBackground = null;
+		public Sprite sprite1 = null;
+		public Sprite sprite2 = null;
+		public Sprite sprite3 = null;
+		public Sprite sprite4 = null;
+		public Sprite sprite5 = null;
+	
 		public Text txtText = null;
 		public Text txtAnswer1 = null;
 		public Text txtAnswer2 = null;
@@ -39,12 +46,16 @@ public class S_Day2_13 : MonoBehaviour
 				} else if (cntr == 3) {
 						ChangeDescriptionText ("MP then does the paper, and spends the rest of the night playing computer games ");
 				} else if (cntr == 4) {
+						goBackground.GetComponent<SpriteRenderer> ().sprite = sprite2;
 						ChangeDescriptionText ("Third Day\nAlarm goes off, MP has a huge headache: \nDo I even want to shower?");
 						ChangeAnswer1Text ("Yes: I better, I smell like shit later if I don’t");
 						ChangeAnswer2Text ("No: That’s too much work, AXE here I come");
 				} else if (cntr == 5) {
-						GameObject.Find ("Character").GetComponent<CC_Character> ().AnxietyDown ();
-						GameObject.Find ("Character").GetComponent<CC_Character> ().FocusUp ();
+						if (GameObject.Find ("Character") != null)
+								GameObject.Find ("Character").GetComponent<CC_Character> ().AnxietyDown ();
+						if (GameObject.Find ("Character") != null)
+								GameObject.Find ("Character").GetComponent<CC_Character> ().FocusUp ();
+						goBackground.GetComponent<SpriteRenderer> ().sprite = sprite3;
 						ChangeDescriptionText ("Normal School day\nAfter School Lee Scene\nLee: Dude, it’s Wednesday, ready to light it up?");
 						ChangeAnswer1Text ("Yep");
 						ChangeAnswer2Text ("Nope");
@@ -59,8 +70,11 @@ public class S_Day2_13 : MonoBehaviour
 		public void btnTwoEvent ()
 		{
 				if (cntr == 5) {
-						GameObject.Find ("Character").GetComponent<CC_Character> ().AnxietyUp ();
-						GameObject.Find ("Character").GetComponent<CC_Character> ().FocusDown ();
+						if (GameObject.Find ("Character") != null)
+								GameObject.Find ("Character").GetComponent<CC_Character> ().AnxietyUp ();
+						if (GameObject.Find ("Character") != null)
+								GameObject.Find ("Character").GetComponent<CC_Character> ().FocusDown ();
+						goBackground.GetComponent<SpriteRenderer> ().sprite = sprite3;
 						ChangeDescriptionText ("Normal School day\nAfter School Lee Scene\nLee: Dude, it’s Wednesday, ready to light it up?");
 						ChangeAnswer1Text ("Yep");
 						ChangeAnswer2Text ("Nope");

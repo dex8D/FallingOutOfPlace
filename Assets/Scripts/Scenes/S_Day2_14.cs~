@@ -5,6 +5,13 @@ using System.Collections;
 public class S_Day2_14 : MonoBehaviour
 {
 	#region "Class Variables"
+		public GameObject goBackground = null;
+		public Sprite sprite1 = null;
+		public Sprite sprite2 = null;
+		public Sprite sprite3 = null;
+		public Sprite sprite4 = null;
+		public Sprite sprite5 = null;
+	
 		public Text txtText = null;
 		public Text txtAnswer1 = null;
 		public Text txtAnswer2 = null;
@@ -31,6 +38,7 @@ public class S_Day2_14 : MonoBehaviour
 		public void btnOneEvent ()
 		{
 				if (cntr == 0) {
+						goBackground.GetComponent<SpriteRenderer> ().sprite = sprite2;
 						ChangeDescriptionText ("MP: you got it!\nAfter a short break\nLee: Dude this place is packed.");
 				} else if (cntr == 1) {
 						ChangeDescriptionText ("MP: It’s okay, we will just take the booth on the far wall.\nAfter 2 hours of drinks and snacks\nLee: Dude, you look fucked up, how much did you drink? ");
@@ -41,10 +49,14 @@ public class S_Day2_14 : MonoBehaviour
 				} else if (cntr == 4) {
 						ChangeDescriptionText ("MP: Okay it’s time to go, they are going to cut us off over that\nLee: *coughs* fine. ");
 				} else if (cntr == 5) {
-						GameObject.Find ("Character").GetComponent<CC_Character> ().AnxietyDown ();
-						GameObject.Find ("Character").GetComponent<CC_Character> ().FocusUp ();
+						if (GameObject.Find ("Character") != null)
+								GameObject.Find ("Character").GetComponent<CC_Character> ().AnxietyDown ();
+						if (GameObject.Find ("Character") != null)
+								GameObject.Find ("Character").GetComponent<CC_Character> ().FocusUp ();
+						goBackground.GetComponent<SpriteRenderer> ().sprite = sprite3;
 						ChangeDescriptionText ("Fourth Day\nMP: Oh god, the room is still spinning.\nShowers to wake up.");
 				} else if (cntr == 6) {
+						goBackground.GetComponent<SpriteRenderer> ().sprite = sprite4;
 						ChangeDescriptionText ("Goes to school\nMP class ends early so he goes to the cafeteria to rest\nMP rests his head on a table ");
 				} else if (cntr == 7) {
 						ChangeDescriptionText ("Sam: Hey sleepyhead\nMP: whaa… OH Sam! Hey! ");
@@ -69,8 +81,10 @@ public class S_Day2_14 : MonoBehaviour
 						ChangeAnswer1Text ("Yeah, totally");
 						ChangeAnswer2Text ("Ah, well...");
 				} else if (cntr == 17) {
-						GameObject.Find ("Character").GetComponent<CC_Character> ().AnxietyDown ();
-						GameObject.Find ("Character").GetComponent<CC_Character> ().FocusUp ();
+						if (GameObject.Find ("Character") != null)
+								GameObject.Find ("Character").GetComponent<CC_Character> ().AnxietyDown ();
+						if (GameObject.Find ("Character") != null)
+								GameObject.Find ("Character").GetComponent<CC_Character> ().FocusUp ();
 						Application.LoadLevel ("MP_Day2_6");
 				}
 		
@@ -81,8 +95,10 @@ public class S_Day2_14 : MonoBehaviour
 		public void btnTwoEvent ()
 		{
 				if (cntr == 17) {
-						GameObject.Find ("Character").GetComponent<CC_Character> ().AnxietyUp ();
-						GameObject.Find ("Character").GetComponent<CC_Character> ().FocusDown ();
+						if (GameObject.Find ("Character") != null)
+								GameObject.Find ("Character").GetComponent<CC_Character> ().AnxietyUp ();
+						if (GameObject.Find ("Character") != null)
+								GameObject.Find ("Character").GetComponent<CC_Character> ().FocusDown ();
 						Application.LoadLevel ("MP_Day2_7");
 				}
 		}
